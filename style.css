@@ -121,3 +121,81 @@ flex: 1;
 }
 
 /* till that*/
+
+
+
+/* now we start our styling the class i.e home*/
+
+
+.home{
+display: flex;
+
+
+}
+
+
+
+.landing{     /* here we  styling our landing page text*/
+margin-left: 20px;
+    font-weight: bolder;
+}
+
+
+
+.navv ul{
+
+ 
+    list-style-type: none;
+   
+    overflow: hidden;
+
+    padding-inline-start: 100px;
+    padding-top: 0%;
+    margin-top: 1px;
+    
+  }
+  
+  
+  .navv li{
+  margin-inline: 20px;
+    float: left;
+  
+  }
+  
+  .navv li h3{
+    display: block;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: 900;
+    
+  }
+
+  .buy{
+    text-align: center;
+    width: 100px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    background-color: #f8ae3f; /* Add a background color if you want */
+    padding: 5px; /* Add padding as needed for spacing within the div */
+  }
+
+  .search i{
+    list-style-type: none;
+    color: #f7f1f1;
+    font-size: 15px;
+    margin-left: 45px;
+    
+    align-items: center;
+    width: fit-content; 
+    height: 80px; /* Adjust the height as needed */
+    background-color: #0c0c0c; 
+    padding: 5px; 
+  }
+
+
+
+  .full-image{
+ height: 500px;
+width: 1330px;
+
+  }
+  
+  
