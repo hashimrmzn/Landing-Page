@@ -112,4 +112,12 @@ flex: 1;
 /* till that*/
 
 
+/*this is the border styling of regiter course in header*/
+.reg{
+    border: 2px solid rgb(241, 238, 238);
+    border-radius: 12px;
+    padding: 5px;
 
+}
+
+/* till that*/
