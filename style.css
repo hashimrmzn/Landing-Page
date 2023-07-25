@@ -1,0 +1,115 @@
+/* Add CSS styles for the header */
+header {
+    background-image: linear-gradient(to right, rgb(236, 131, 45),  rgb(240, 79, 119));
+    padding: 5px 0;
+    color: #fff;
+    display: flex;
+ 
+    
+}
+/*now these styling the social icons */
+.icons {
+    list-style: none;
+    padding: 0;
+    margin-left: 70px;
+flex: 1;
+    
+}
+
+.icons li {
+    margin-left: 10px;
+    
+    
+}
+
+.icons li a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.icons li {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+
+
+.icons li::before {
+    content: "|"; 
+    color: #fff; 
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+}
+
+.social-icons li:last-child::after {
+    content: "|"; 
+    color: #fff; 
+    position: absolute;
+    top: 50%;
+    left: -10px; 
+    transform: translateY(-50%);
+}
+
+/* till that*/
+
+
+
+
+/*now these styling is for phone and email icons*/
+
+.iconss {
+    list-style: none;
+    padding: 0;
+    margin-left: 190px;
+    
+    flex: 1;
+    
+}
+
+.iconss li {
+    margin-left: 10px;
+
+    
+}
+
+.iconss li a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.iconss li {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    
+}
+
+
+
+.iconss li::before {
+    content: "|"; /* Use any character or symbol you want as the line */
+    color: #fff; /* Color of the line */
+    position: absolute;
+    top: 50%;
+    left: -10px; /* Adjust the position to control the spacing between the line and the icon */
+    transform: translateY(-50%);
+}
+
+.social-iconss li:first-child::before {
+    display: none;
+ }
+ 
+
+.social-iconss li:last-child::after {
+   display: none;
+}
+
+/* till that*/
+
+
+
