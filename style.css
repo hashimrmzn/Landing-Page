@@ -192,10 +192,63 @@ margin-left: 20px;
 
 
 
+  .image-contain {
+    position: relative;
+    
+    color: white;
+  }
+
   .full-image{
  height: 500px;
 width: 1330px;
 
   }
+
+ 
+  .vertical-line{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+
+    background: linear-gradient(to bottom, rgb(236, 131, 45), rgb(240, 79, 119));
+  height: 250px;
+  }
+
+  .multi-heading{
+
+    position: absolute;
+    bottom: 228px;
+    width: 850px;
+    left: 16px;
+    margin-left: 20PX;
+
+  }
+
+
+  .HEADING1{
+  color: #c0b9b9;
+    font-style: italic;
+    text-shadow: 2px 5px;
+}
+
   
   
+  .headind-2{
+
+color: #c0bbbb;
+
+  }
+
+  .sub
+  {
+    padding: 10px;
+    border-radius: 20px; 
+    background: linear-gradient(to right, rgb(236, 131, 45),  rgb(240, 79, 119));
+
+    position: absolute;
+    bottom: 200px;
+    width: max-content;
+    left: 16px;
+    
+    margin-left: 20PX;
+  }
