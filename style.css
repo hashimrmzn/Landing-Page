@@ -1,57 +1,58 @@
 /* Add CSS styles for the header */
 header {
-    background-image: linear-gradient(to right, rgb(236, 131, 45),  rgb(240, 79, 119));
-    padding: 5px 0;
-    color: #fff;
-    display: flex;
- 
-    
+  background-image: linear-gradient(to right, rgb(236, 131, 45), rgb(240, 79, 119));
+  padding: 5px 0;
+  color: #fff;
+  display: flex;
+
+
 }
+
 /*now these styling the social icons */
 .icons {
-    list-style: none;
-    padding: 0;
-    margin-left: 70px;
-flex: 1;
-    
+  list-style: none;
+  padding: 0;
+  margin-left: 70px;
+  flex: 1;
+
 }
 
 .icons li {
-    margin-left: 10px;
-    
-    
+  margin-left: 10px;
+
+
 }
 
 .icons li a {
-    color: #fff;
-    font-size: 14px;
-    text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 .icons li {
-    display: inline-block;
-    margin: 0 10px;
-    position: relative;
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
 }
 
 
 
 .icons li::before {
-    content: "|"; 
-    color: #fff; 
-    position: absolute;
-    top: 50%;
-    left: -10px;
-    transform: translateY(-50%);
+  content: "|";
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  transform: translateY(-50%);
 }
 
 .social-icons li:last-child::after {
-    content: "|"; 
-    color: #fff; 
-    position: absolute;
-    top: 50%;
-    left: -10px; 
-    transform: translateY(-50%);
+  content: "|";
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  transform: translateY(-50%);
 }
 
 /* till that*/
@@ -62,61 +63,64 @@ flex: 1;
 /*now these styling is for phone and email icons*/
 
 .iconss {
-    list-style: none;
-    padding: 0;
-    margin-left: 190px;
-    
-    flex: 1;
-    
+  list-style: none;
+  padding: 0;
+  margin-left: 190px;
+
+  flex: 1;
+
 }
 
 .iconss li {
-    margin-left: 10px;
+  margin-left: 10px;
 
-    
+
 }
 
 .iconss li a {
-    color: #fff;
-    font-size: 14px;
-    text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 .iconss li {
-    display: inline-block;
-    margin: 0 10px;
-    position: relative;
-    
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+
 }
 
 
 
 .iconss li::before {
-    content: "|"; /* Use any character or symbol you want as the line */
-    color: #fff; /* Color of the line */
-    position: absolute;
-    top: 50%;
-    left: -10px; /* Adjust the position to control the spacing between the line and the icon */
-    transform: translateY(-50%);
+  content: "|";
+  /* Use any character or symbol you want as the line */
+  color: #fff;
+  /* Color of the line */
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  /* Adjust the position to control the spacing between the line and the icon */
+  transform: translateY(-50%);
 }
 
 .social-iconss li:first-child::before {
-    display: none;
- }
- 
+  display: none;
+}
+
 
 .social-iconss li:last-child::after {
-   display: none;
+  display: none;
 }
 
 /* till that*/
 
 
 /*this is the border styling of regiter course in header*/
-.reg{
-    border: 2px solid rgb(241, 238, 238);
-    border-radius: 12px;
-    padding: 5px;
+.reg {
+  border: 2px solid rgb(241, 238, 238);
+  border-radius: 12px;
+  padding: 5px;
 
 }
 
@@ -127,152 +131,245 @@ flex: 1;
 /* now we start our styling the class i.e home*/
 
 
-.home{
+.home {
+  display: flex;
+
+
+}
+
+
+
+.landing {
+  /* here we  styling our landing page text*/
+  margin-left: 20px;
+  font-weight: bolder;
+}
+
+
+
+.navv ul {
+
+
+  list-style-type: none;
+
+  overflow: hidden;
+
+  padding-inline-start: 100px;
+  padding-top: 0%;
+  margin-top: 1px;
+
+}
+
+
+.navv li {
+  margin-inline: 20px;
+  float: left;
+
+}
+
+.navv li h3 {
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+
+}
+
+.buy {
+  text-align: center;
+  width: 100px;
+  /* Adjust the width as needed */
+  height: 80px;
+  /* Adjust the height as needed */
+  background-color: #f8ae3f;
+  /* Add a background color if you want */
+  padding: 5px;
+  /* Add padding as needed for spacing within the div */
+}
+
+.search i {
+  list-style-type: none;
+  color: #f7f1f1;
+  font-size: 15px;
+  margin-left: 45px;
+
+  align-items: center;
+  width: fit-content;
+  height: 80px;
+  /* Adjust the height as needed */
+  background-color: #0c0c0c;
+  padding: 5px;
+}
+
+
+
+.image-contain {
+  position: relative;
+
+  color: white;
+}
+
+.full-image {
+  height: 500px;
+  width: 1330px;
+
+}
+
+
+.vertical-line {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+
+  background: linear-gradient(to bottom, rgb(236, 131, 45), rgb(240, 79, 119));
+  height: 250px;
+}
+
+.multi-heading {
+
+  position: absolute;
+  bottom: 228px;
+  width: 850px;
+  left: 36px;
+  margin-left: 20PX;
+
+}
+
+
+.HEADING1 {
+  color: #c0b9b9;
+  font-style: italic;
+  text-shadow: 2px 5px;
+}
+
+
+
+.headind-2 {
+
+  color: #c0bbbb;
+
+}
+
+.btns {
+
+  display: flex;
+}
+
+.sub {
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(to right, rgb(236, 131, 45), rgb(240, 79, 119));
+
+  position: absolute;
+  bottom: 180px;
+  width: max-content;
+  left: 36px;
+  flex: 1;
+  margin-left: 20PX;
+
+  margin-left: 70px;
+}
+
+
+.sub1 {
+  padding: 10px;
+  border-radius: 20px;
+  border-color: #fff;
+  border-style: outset;
+  color: #fcf7f7;
+  position: absolute;
+  bottom: 180px;
+  width: 200px;
+  left: 36px;
+  flex: 1;
+
+
+  margin-left: 240PX;
+}
+
+
+.cont{
+  margin-top: 0px;
+  padding-top: 1px;
+  padding-bottom: 70px;
+    background: linear-gradient(to right, rgb(236, 131, 45), rgb(240, 79, 119));
+    display: flex;
+
+}
+
+.launch-m{
+
+width: 400px;
+}
+
+.launch{
+
+  display: flex;
+  width: 400px;
+  
+}
+
+
+
+.launching-icon {
+
+  margin-top: 50px;
+  font-size: 20px; 
+  color: #f7f1f0;
+  flex:1;
+  margin-left: 50px;
+align-items: center;
+  border: 2px solid rgb(241, 238, 238);
+  border-radius: 30px;
+
+  padding: 15px;
+
+  
+  
+}
+
+.business{
+color: #fcf7f7;
+flex:1;
+padding-top: 30px;
+margin-right: 122px;
+margin-left: 15px;
+font-weight: bolder;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.map{
+  padding: 15px;
+
+  background-image:url(https://img.freepik.com/free-vector/worldwide-connection-gray-background-illustration-vector_53876-61772.jpg?w=740&t=st=1690457275~exp=1690457875~hmac=90878c0214ee111beca0e2df8f9794ca296120b27f46318cbc2435f7ef4ef66a);
+
 display: flex;
 
-
 }
 
 
+.con-1{
+margin-left: 50px;
+width: 700px;
+}
 
-.landing{     /* here we  styling our landing page text*/
-margin-left: 20px;
-    font-weight: bolder;
+.horizontal-line {
+  border-top: 2px solid;
+  border-image: linear-gradient(to right, rgb(236, 131, 45), rgb(240, 79, 119));
+  border-image-slice: 1;
+  width: 50px;
+  margin: 20px 0;
 }
 
 
+.subb1{
 
-.navv ul{
-
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(to right, rgb(236, 131, 45), rgb(240, 79, 119));
+margin-left: 55px;
+width: max-content;
  
-    list-style-type: none;
-   
-    overflow: hidden;
-
-    padding-inline-start: 100px;
-    padding-top: 0%;
-    margin-top: 1px;
-    
-  }
-  
-  
-  .navv li{
-  margin-inline: 20px;
-    float: left;
-  
-  }
-  
-  .navv li h3{
-    display: block;
-     font-family: Georgia, 'Times New Roman', Times, serif;
-   font-weight: 900;
-    
-  }
-
-  .buy{
-    text-align: center;
-    width: 100px; /* Adjust the width as needed */
-    height: 80px; /* Adjust the height as needed */
-    background-color: #f8ae3f; /* Add a background color if you want */
-    padding: 5px; /* Add padding as needed for spacing within the div */
-  }
-
-  .search i{
-    list-style-type: none;
-    color: #f7f1f1;
-    font-size: 15px;
-    margin-left: 45px;
-    
-    align-items: center;
-    width: fit-content; 
-    height: 80px; /* Adjust the height as needed */
-    background-color: #0c0c0c; 
-    padding: 5px; 
-  }
-
-
-
-  .image-contain {
-    position: relative;
-    
-    color: white;
-  }
-
-  .full-image{
- height: 500px;
-width: 1330px;
-
-  }
-
  
-  .vertical-line{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-
-    background: linear-gradient(to bottom, rgb(236, 131, 45), rgb(240, 79, 119));
-  height: 250px;
-  }
-
-  .multi-heading{
-
-    position: absolute;
-    bottom: 228px;
-    width: 850px;
-    left: 36px;
-    margin-left: 20PX;
-
-  }
-
-
-  .HEADING1{
-  color: #c0b9b9;
-    font-style: italic;
-    text-shadow: 2px 5px;
 }
 
-  
-  
-  .headind-2{
-
-color: #c0bbbb;
-
-  }
-
-  .btns{
-
-    display: flex;
-  }
-
-  .sub
-  {
-    padding: 10px;
-    border-radius: 20px; 
-    background: linear-gradient(to right, rgb(236, 131, 45),  rgb(240, 79, 119));
- 
-    position: absolute;
-    bottom: 180px;
-    width: max-content;
-    left: 36px;
-    flex:1;
-    margin-left: 20PX;
-    
-    margin-left: 70px;
-  }
-
-
-  .sub1{
-    padding: 10px;
-    border-radius: 20px; 
-   border-color: #fff;
-  border-style: outset;
-color: #fcf7f7;
-    position: absolute;
-    bottom: 180px;
-    width: 200px;
-    left: 36px;
-    flex:1;
-    
-    
-    margin-left: 240PX;
-  }
