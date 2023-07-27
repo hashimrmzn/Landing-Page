@@ -219,7 +219,7 @@ width: 1330px;
     position: absolute;
     bottom: 228px;
     width: 850px;
-    left: 16px;
+    left: 36px;
     margin-left: 20PX;
 
   }
@@ -239,16 +239,40 @@ color: #c0bbbb;
 
   }
 
+  .btns{
+
+    display: flex;
+  }
+
   .sub
   {
     padding: 10px;
     border-radius: 20px; 
     background: linear-gradient(to right, rgb(236, 131, 45),  rgb(240, 79, 119));
-
+ 
     position: absolute;
-    bottom: 200px;
+    bottom: 180px;
     width: max-content;
-    left: 16px;
-    
+    left: 36px;
+    flex:1;
     margin-left: 20PX;
+    
+    margin-left: 70px;
+  }
+
+
+  .sub1{
+    padding: 10px;
+    border-radius: 20px; 
+   border-color: #fff;
+  border-style: outset;
+color: #fcf7f7;
+    position: absolute;
+    bottom: 180px;
+    width: 200px;
+    left: 36px;
+    flex:1;
+    
+    
+    margin-left: 240PX;
   }
