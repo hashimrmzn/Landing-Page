@@ -381,16 +381,44 @@ width: max-content;
 
 }
 
+.pic-a{
+  margin-left: 20px;
+}
+
 .picn{
 
   display: flex;
+  margin-left: 30px;
 }
 
-.exp{
-height:40px;
-margin-bottom: 40px;
-background-color: #fff;
-width: 150px;
+.pic-a .exp1{
 
+  bottom: 1px;
+  right: 10px;
+  height: 40px;
+  width: 200px;
+  background-color: white;
+  color: black;
+  padding-top: 1px;
 text-align: center;
+
+  margin-left: 150px;
 }
+
+
+
+
+.exp2{
+
+  
+  
+  height: 40px;
+  width: 200px;
+  background-color: white;
+  color: black;
+  padding-top: 1px;
+text-align: center;
+margin-top: 200px;
+  
+}
+
